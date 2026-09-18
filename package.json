@@ -1,20 +1,44 @@
 {
 
-  "type": "module",
+
+
+ 
   "scripts": {
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
 
-
   "dependencies": {
+
     "bcryptjs": "^3.0.3",
+
     "cookie-parser": "^1.4.7",
+
     "cors": "^2.8.6",
+
     "dotenv": "^17.4.2",
+
     "express": "^5.2.1",
+
+    "helmet": "^8.3.0",
+
     "jsonwebtoken": "^9.0.3",
+
     "mongoose": "^9.7.4",
-    "multer": "^2.2.0"
+
+    "multer": "^2.2.0",
+
+    "mysql2": "^3.24.4",
+
+    "sequelize": "^6.37.8"
+
+  },
+
+  "devDependencies": {
+
+    "nodemon": "^3.1.14"
+
   }
+
 }
+
